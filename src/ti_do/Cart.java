@@ -121,4 +121,11 @@ public class Cart {
 		System.out.println("No match found !");
 	}
 
+	public void addDigitalVideoDisc(DigitalVideoDisc... dvds) {
+		for (DigitalVideoDisc dvd : dvds) {
+			itemsInCart.add(dvd); // Thêm từng DVD vào giỏ hàng
+		}
+		System.out.println(dvds.length + " DVD đã được thêm vào giỏ hàng.");
+	}
+	
 }

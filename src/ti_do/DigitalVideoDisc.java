@@ -98,5 +98,7 @@ public class DigitalVideoDisc {
 		public void setCost(float costSet) {
 			cost = costSet;
 		}
+		
+
 
 }
